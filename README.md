@@ -12,45 +12,11 @@ A fully responsive, modern, and animated WordPress-style website built using **R
 
 ## 📸 Preview
 
-![App Preview](<img width="915" alt="Image" src="https://github.com/user-attachments/assets/d576605f-8ade-4296-a5b6-6d9e7f4010ca" />) 
 <img width="915" alt="Image" src="https://github.com/user-attachments/assets/d576605f-8ade-4296-a5b6-6d9e7f4010ca" />
 <img width="919" alt="Image" src="https://github.com/user-attachments/assets/b4a99e09-ac21-4e50-addd-401d0b78e7d0" />
 
 
-
 ---
-
-## 📁 Project Structure
-
-cf-hiring-2025/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   │   ├── CreativeBackground.tsx
-│   │   ├── CreativeHeroImage.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Header.tsx
-│   │   ├── ImageGallery.tsx
-│   │   └── ScrollToTop.tsx
-│   │
-│   ├── pages/
-│   │   ├── Home.tsx
-│   │   ├── Blog.tsx
-│   │   └── BlogPost.tsx
-│   │
-│   ├── App.tsx
-│   ├── index.tsx
-│   ├── index.css
-│   ├── app.css
-│   └── types/index.ts
-│
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
-
 
 ## Tech Stack
 
@@ -77,24 +43,17 @@ cf-hiring-2025/
 
 ## 🛠️ Getting Started
 
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/Cheshta17/WordPress-Development-Assignment---CausalFunnel.git
-cd WordPress-Development-Assignment---CausalFunnel
-
-### 2. Install dependencies
-
-```bash
-npm install
-
-### 3. Run the app locally
-
-```bash
-npm run dev
-
-### 4. Build for production
-
-```bash
-npm run build
-
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Cheshta17/WordPress-Development-Assignment---CausalFunnel.git    
+   cd WordPress-Development-Assignment---CausalFunnel  
+2. Install dependencies
+   ```bash
+   npm install
+4. Run the app locally
+   ```bash
+   npm run dev 
+6. Build for production
+   ```bash
+   npm run build
+   
