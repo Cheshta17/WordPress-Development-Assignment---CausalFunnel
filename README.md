@@ -13,6 +13,7 @@ A fully responsive, modern, and animated WordPress-style website built using **R
 ## 📸 Preview
 
 ![App Preview](<img width="915" alt="Image" src="https://github.com/user-attachments/assets/d576605f-8ade-4296-a5b6-6d9e7f4010ca" />) 
+<img width="915" alt="Image" src="https://github.com/user-attachments/assets/d576605f-8ade-4296-a5b6-6d9e7f4010ca" />
 <img width="919" alt="Image" src="https://github.com/user-attachments/assets/b4a99e09-ac21-4e50-addd-401d0b78e7d0" />
 
 
@@ -21,7 +22,6 @@ A fully responsive, modern, and animated WordPress-style website built using **R
 
 ## 📁 Project Structure
 
-```bash
 cf-hiring-2025/
 │
 ├── public/
@@ -51,7 +51,6 @@ cf-hiring-2025/
 ├── postcss.config.js
 └── README.md
 
----
 
 ## Tech Stack
 
@@ -62,7 +61,6 @@ cf-hiring-2025/
 - **React Router** – Navigation  
 - **Vite** – Fast build tool
 
----
 
 ## Features
 
@@ -76,7 +74,6 @@ cf-hiring-2025/
 -  Smooth Page Transitions  
 -  Scroll to Top on Route Change  
 
----
 
 ## 🛠️ Getting Started
 
@@ -101,4 +98,3 @@ npm run dev
 ```bash
 npm run build
 
-```
