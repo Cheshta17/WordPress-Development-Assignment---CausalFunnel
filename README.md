@@ -1,54 +1,104 @@
-# React + TypeScript + Vite
+# WordPress-Style React Website 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, modern, and animated WordPress-style website built using **React**, **Tailwind CSS**, **TypeScript**, **Framer Motion**, and **React Router**. Designed to showcase creative work, portfolio, blogs, and company info with engaging visuals and a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Visit the Website](https://word-press-causal-funnel-cheshta17.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📸 Preview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![App Preview](<img width="915" alt="Image" src="https://github.com/user-attachments/assets/d576605f-8ade-4296-a5b6-6d9e7f4010ca" />) 
+<img width="919" alt="Image" src="https://github.com/user-attachments/assets/b4a99e09-ac21-4e50-addd-401d0b78e7d0" />
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+
+---
+
+## 📁 Project Structure
+
+```bash
+cf-hiring-2025/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── CreativeBackground.tsx
+│   │   ├── CreativeHeroImage.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── ImageGallery.tsx
+│   │   └── ScrollToTop.tsx
+│   │
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Blog.tsx
+│   │   └── BlogPost.tsx
+│   │
+│   ├── App.tsx
+│   ├── index.tsx
+│   ├── index.css
+│   ├── app.css
+│   └── types/index.ts
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+---
+
+## Tech Stack
+
+- **React** – Component-based UI  
+- **TypeScript** – Type safety  
+- **Tailwind CSS** – Utility-first styling  
+- **Framer Motion** – Animations  
+- **React Router** – Navigation  
+- **Vite** – Fast build tool
+
+---
+
+## Features
+
+-  Animated Hero Section  
+-  Highlighted Features with Icons  
+-  Image Gallery Section  
+-  Stats Section  
+-  Testimonials Carousel  
+-  Blog Listing & Detail View  
+-  Mobile Responsive  
+-  Smooth Page Transitions  
+-  Scroll to Top on Route Change  
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Cheshta17/WordPress-Development-Assignment---CausalFunnel.git
+cd WordPress-Development-Assignment---CausalFunnel
+
+### 2. Install dependencies
+
+```bash
+npm install
+
+### 3. Run the app locally
+
+```bash
+npm run dev
+
+### 4. Build for production
+
+```bash
+npm run build
+
 ```
