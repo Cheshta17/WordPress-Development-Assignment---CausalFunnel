@@ -7,6 +7,8 @@ A fully responsive, modern, and animated WordPress-style website built using **R
 ## 🌐 Live Demo
 
 🔗 [Visit the Website](https://word-press-causal-funnel-cheshta17.vercel.app/)
+🔗 [Preview video link](https://drive.google.com/file/d/1Yu872cA0FiM3EN7RQqSwsvt2cum6J4Dx/view?usp=sharing)
+
 
 ---
 
